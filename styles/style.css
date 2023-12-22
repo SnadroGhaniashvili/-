@@ -285,6 +285,64 @@ input[type="text"] {
   letter-spacing: 0em;
   text-align: left;
 }
+.maincard {
+  display: flex;
+  flex-direction: row;
+  margin-top: 205px;
+}
+.card img {
+  width: 324px;
+  height: 324px;
+}
+.card h2 {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 324px;
+  height: 29px;
+  margin-top: 34px;
+}
+.card h1 {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 324px;
+  height: 29px;
+  margin-left: 120px;
+  margin-top: 24px;
+}
+.sh1 {
+  margin-left: 45px;
+}
+.sh2 {
+  margin-left: 40px;
+}
+.sh3 {
+  margin-left: 30px;
+}
+.sh4 {
+  margin-left: 80px;
+}
+.serdiv1 {
+  width: 324px;
+  height: 68px;
+  border-radius: 20px;
+  background: #24253c;
+}
+.serdiv1 h3 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 86px;
+  padding-top: 10px;
+}
 .div222 {
   width: 253px;
   height: 1px;

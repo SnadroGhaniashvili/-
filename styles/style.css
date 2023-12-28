@@ -84,6 +84,10 @@ input[type="text"] {
   width: 686px;
   color: #ffffff;
 }
+.sec2 {
+  display: flex;
+  justify-content: space-evenly;
+}
 .div1 {
   display: flex;
   flex-direction: row;
@@ -94,7 +98,6 @@ input[type="text"] {
   width: 253px;
   height: 1px;
   background-color: black;
-  margin-left: 339px;
 }
 .div3 {
   display: flex;
@@ -123,9 +126,9 @@ input[type="text"] {
   justify-content: space-between;
   flex-direction: row;
   margin-left: 20px;
+  flex-wrap: wrap;
 }
 .child1 div {
-  margin-left: 50px;
   width: 300px;
 }
 .child1 img {
@@ -146,9 +149,9 @@ input[type="text"] {
   flex-direction: row;
   margin-left: 20px;
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 .child2 div {
-  margin-left: 50px;
   width: 300px;
 }
 .child2 img {
@@ -169,6 +172,7 @@ input[type="text"] {
   background-color: darkgrey;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .footdiv1 {
   margin-left: 35px;
@@ -216,9 +220,7 @@ input[type="text"] {
 .fimg2 {
   margin-left: 29px;
 }
-.footdiv2 {
-  margin-left: 278px;
-}
+
 .fchdiv3 {
   display: flex;
   flex-direction: column;
@@ -235,9 +237,7 @@ input[type="text"] {
 .footdiv2 h1 {
   margin-top: 37px;
 }
-.footdiv3 {
-  margin-left: 183px;
-}
+
 .fchdiv4 h2 {
   width: 45px;
   height: 36px;
@@ -249,6 +249,12 @@ input[type="text"] {
 }
 .footdiv3 h1 {
   margin-top: 37px;
+}
+.footdiv4 {
+  margin-top: 140px;
+}
+footer {
+  margin-top: 50px;
 }
 .footdiv4 input[type="text"] {
   width: 339px;
@@ -289,10 +295,19 @@ input[type="text"] {
   display: flex;
   flex-direction: row;
   margin-top: 205px;
+  justify-content: space-between;
+}
+.card {
+  width: 324px;
 }
 .card img {
   width: 324px;
   height: 324px;
+}
+.card img:hover {
+  width: 320px;
+  height: 400px;
+  transition: 2s;
 }
 .card h2 {
   font-size: 27px;
@@ -347,13 +362,13 @@ input[type="text"] {
   width: 253px;
   height: 1px;
   background-color: black;
-  margin-left: 400px;
 }
 .newmothdiv {
   margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .ch1ch1 {
   max-width: 600px;

@@ -1,0 +1,6 @@
+@media only screen and (max-width: 1221px) {
+  .child1 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
